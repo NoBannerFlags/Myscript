@@ -1,20 +1,18 @@
 #!/usr/bin/python
 import time
-x = ''
-y = ''.join(sorted(x))
-y = y.lower()
-f1 = open ('test.txt','w');
-f1.write('');
-f1.close();
-f = open('test.txt','a')
-z = 0;
-print('Script by NoBannerFlags');
-
-for i in y:
-	z = z+1
+def sortMe ( stringtoSort, fileName ):
+	"This sorts the string that is given, filename meaning the file it is stored in."
+	y = ''.join(sorted(x)).lower()
+	storeMe = open(fileName,'w')
+	storeMe.write('');
+	storeMe.close();
+	storeMe2 = open(fileName,'a')
+	count = 0;
+	for i in y:
+		count = count+1
 	
-	if z>=10:
-		f.write('\n');
-		z=0;
-	f.write(i)
-f.close();
+		if count>=10:
+			storeMe2.write('\n');
+			count=0;
+		storeMe2.write(i)
+	storeMe2.close();
