@@ -2,7 +2,7 @@
 import time
 def sortMe ( stringtoSort, fileName ):
 	"This sorts the string that is given, filename meaning the file it is stored in."
-	y = ''.join(sorted(stringtoSort.lower().replace(' ', '')))
+	y = ''.join(sorted(stringtoSort.lower())).replace(' ', '')
 	storeMe = open(fileName,'w')
 	storeMe.write('');
 	storeMe.close();
