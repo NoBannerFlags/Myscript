@@ -9,7 +9,7 @@ f1.write('');
 f1.close();
 f = open('test.txt','a')
 z = 0;
-print('Script by Kai.');
+print('Script by NoBannerFlags');
 print('sorting \"'+x+'\" to test.txt');
 print('sorted text is '+y);
 for i in y:
