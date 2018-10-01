@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import time
-x = input("What string would you like to sort? please use \' before and after your input."
+x = ''
 y = ''.join(sorted(x))
 y = y.replace(' ', '')
 f1 = open ('test.txt','w');
