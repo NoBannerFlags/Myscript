@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import time
+#import time
 def sortMe ( stringtoSort, fileName ):
 	"This sorts the string that is given, filename meaning the file it is stored in."
 	y = ''.join(sorted(stringtoSort.lower())).replace(' ', '')
